@@ -12,6 +12,8 @@ class Alien {
         this.move();
     }
 
+    
+
     move() {
         this.element.style.left = 120 + Math.random() * (window.innerWidth - 200) + "px";
         this.element.style.top = 400 + "px";

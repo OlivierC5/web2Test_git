@@ -25,3 +25,7 @@ const tick = () => {
 
     window.requestAnimationFrame(tick);
 }
+
+const mangeDlaMarde = () => {
+    console.log("Allo")
+}
